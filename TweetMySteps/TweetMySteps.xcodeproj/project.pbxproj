@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E047EF416758E170028B1CE /* DetailVsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E047EF216758E160028B1CE /* DetailVsViewController.m */; };
+		4E047EF516758E170028B1CE /* DetailVsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E047EF316758E170028B1CE /* DetailVsViewController.xib */; };
+		4E047EF81675C25B0028B1CE /* DetailVsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E047EF71675C25A0028B1CE /* DetailVsTableViewCell.m */; };
+		4E047EFA1675C27A0028B1CE /* DetailVsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E047EF91675C27A0028B1CE /* DetailVsTableViewCell.xib */; };
+		4E3EAD45166B612300F92013 /* UserProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3EAD43166B612300F92013 /* UserProfileViewController.m */; };
+		4E3EAD46166B612300F92013 /* UserProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E3EAD44166B612300F92013 /* UserProfileViewController.xib */; };
+		4E3EAD57166CC3AA00F92013 /* UserProfileLifeTimeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3EAD56166CC3AA00F92013 /* UserProfileLifeTimeTableViewCell.m */; };
+		4E3EAD59166CC3D100F92013 /* UserProfileLifetimeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E3EAD58166CC3D100F92013 /* UserProfileLifetimeTableViewCell.xib */; };
+		4E3EAD5D166CD34000F92013 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3EAD5B166CD33F00F92013 /* DetailViewController.m */; };
+		4E3EAD5E166CD34000F92013 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E3EAD5C166CD34000F92013 /* DetailViewController.xib */; };
+		4E3EAD61166CD40800F92013 /* DetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3EAD60166CD40800F92013 /* DetailTableViewCell.m */; };
+		4E3EAD63166CD55700F92013 /* DetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E3EAD62166CD55700F92013 /* DetailTableViewCell.xib */; };
+		4E4E81A9165C599000ADC4CD /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4E81A7165C599000ADC4CD /* ProfileViewController.m */; };
+		4E4E81AA165C599000ADC4CD /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E4E81A8165C599000ADC4CD /* ProfileViewController.xib */; };
+		4E4E81AF165C59AD00ADC4CD /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4E81AD165C59AD00ADC4CD /* AboutViewController.m */; };
+		4E4E81B0165C59AD00ADC4CD /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E4E81AE165C59AD00ADC4CD /* AboutViewController.xib */; };
+		4E4E81B4165C59CF00ADC4CD /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4E81B2165C59CF00ADC4CD /* SettingsViewController.m */; };
+		4E4E81B5165C59CF00ADC4CD /* SettingsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E4E81B3165C59CF00ADC4CD /* SettingsViewController.xib */; };
+		4E4E81B9165C602900ADC4CD /* TweetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4E81B7165C602800ADC4CD /* TweetViewController.m */; };
+		4E4E81BA165C602900ADC4CD /* TweetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E4E81B8165C602900ADC4CD /* TweetViewController.xib */; };
+		4E4E81BC165C672600ADC4CD /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E4E81BB165C672600ADC4CD /* Twitter.framework */; };
+		4E4E81BE165C67B200ADC4CD /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E4E81BD165C67B200ADC4CD /* Accounts.framework */; };
+		4E4E81C2165CB24100ADC4CD /* PostTweetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4E81C0165CB24000ADC4CD /* PostTweetViewController.m */; };
+		4E4E81C3165CB24100ADC4CD /* PostTweetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E4E81C1165CB24000ADC4CD /* PostTweetViewController.xib */; };
+		4E4E8243165D533200ADC4CD /* LeaderBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4E8241165D533200ADC4CD /* LeaderBoardViewController.m */; };
+		4E4E8244165D533200ADC4CD /* LeaderBoardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E4E8242165D533200ADC4CD /* LeaderBoardViewController.xib */; };
+		4E4E824E165D84C900ADC4CD /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E4E824D165D84C900ADC4CD /* Social.framework */; };
+		4E6177D616663394000F168E /* User.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E6177D216663394000F168E /* User.png */; };
+		4E6177DD1666429B000F168E /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E6177D91666429A000F168E /* home.png */; };
+		4E6177DE1666429B000F168E /* info.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E6177DA1666429A000F168E /* info.png */; };
+		4E6177DF1666429B000F168E /* man.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E6177DB1666429A000F168E /* man.png */; };
+		4E6177E01666429B000F168E /* plus-sign.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E6177DC1666429A000F168E /* plus-sign.png */; };
+		4EB912301656EEB7000AC73E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EB9122F1656EEB7000AC73E /* UIKit.framework */; };
+		4EB912321656EEB7000AC73E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EB912311656EEB7000AC73E /* Foundation.framework */; };
+		4EB912341656EEB7000AC73E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EB912331656EEB7000AC73E /* CoreGraphics.framework */; };
+		4EB912361656EEB7000AC73E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EB912351656EEB7000AC73E /* CoreData.framework */; };
+		4EB9123C1656EEB7000AC73E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4EB9123A1656EEB7000AC73E /* InfoPlist.strings */; };
+		4EB9123E1656EEB7000AC73E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB9123D1656EEB7000AC73E /* main.m */; };
+		4EB912421656EEB7000AC73E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB912411656EEB7000AC73E /* AppDelegate.m */; };
+		4EB912441656EEB7000AC73E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EB912431656EEB7000AC73E /* Default.png */; };
+		4EB912461656EEB7000AC73E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EB912451656EEB7000AC73E /* Default@2x.png */; };
+		4EB912481656EEB7000AC73E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EB912471656EEB7000AC73E /* Default-568h@2x.png */; };
+		4EB9124B1656EEB7000AC73E /* TweetMySteps.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4EB912491656EEB7000AC73E /* TweetMySteps.xcdatamodeld */; };
+		4EC67648166942D300D2BF32 /* NoDisplayTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EC67647166942D300D2BF32 /* NoDisplayTableViewCell.m */; };
+		4EC6764A166942FA00D2BF32 /* NoDisplayTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EC67649166942FA00D2BF32 /* NoDisplayTableViewCell.xib */; };
+		4EC676581669CEFD00D2BF32 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EC676571669CEFD00D2BF32 /* iAd.framework */; };
+		4EF75C4A166F4488003EA3E2 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EE8F0CD166F38E90039866F /* Icon.png */; };
+		4EF75C4B166F448E003EA3E2 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EE8F0D0166F38F30039866F /* Icon@2x.png */; };
+		4EF75C861670A58B003EA3E2 /* LeaderBoardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EF75C851670A58B003EA3E2 /* LeaderBoardTableViewCell.xib */; };
+		4EF75C8A16719127003EA3E2 /* DetailedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF75C8816719126003EA3E2 /* DetailedViewController.m */; };
+		4EF75C8B16719127003EA3E2 /* DetailedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EF75C8916719126003EA3E2 /* DetailedViewController.xib */; };
+		4EF75C91167199AC003EA3E2 /* pattern3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EF75C90167199AC003EA3E2 /* pattern3.png */; };
+		4EFBA7FC1667601100B2101D /* LeaderBoardTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFBA7FB1667601100B2101D /* LeaderBoardTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4E047EF116758E160028B1CE /* DetailVsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailVsViewController.h; sourceTree = "<group>"; };
+		4E047EF216758E160028B1CE /* DetailVsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailVsViewController.m; sourceTree = "<group>"; };
+		4E047EF316758E170028B1CE /* DetailVsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailVsViewController.xib; sourceTree = "<group>"; };
+		4E047EF61675C25A0028B1CE /* DetailVsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailVsTableViewCell.h; sourceTree = "<group>"; };
+		4E047EF71675C25A0028B1CE /* DetailVsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailVsTableViewCell.m; sourceTree = "<group>"; };
+		4E047EF91675C27A0028B1CE /* DetailVsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailVsTableViewCell.xib; sourceTree = "<group>"; };
+		4E3EAD42166B612300F92013 /* UserProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserProfileViewController.h; sourceTree = "<group>"; };
+		4E3EAD43166B612300F92013 /* UserProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserProfileViewController.m; sourceTree = "<group>"; };
+		4E3EAD44166B612300F92013 /* UserProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserProfileViewController.xib; sourceTree = "<group>"; };
+		4E3EAD55166CC3AA00F92013 /* UserProfileLifeTimeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserProfileLifeTimeTableViewCell.h; sourceTree = "<group>"; };
+		4E3EAD56166CC3AA00F92013 /* UserProfileLifeTimeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserProfileLifeTimeTableViewCell.m; sourceTree = "<group>"; };
+		4E3EAD58166CC3D100F92013 /* UserProfileLifetimeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserProfileLifetimeTableViewCell.xib; sourceTree = "<group>"; };
+		4E3EAD5A166CD33F00F92013 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		4E3EAD5B166CD33F00F92013 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		4E3EAD5C166CD34000F92013 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		4E3EAD5F166CD40800F92013 /* DetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailTableViewCell.h; sourceTree = "<group>"; };
+		4E3EAD60166CD40800F92013 /* DetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailTableViewCell.m; sourceTree = "<group>"; };
+		4E3EAD62166CD55700F92013 /* DetailTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailTableViewCell.xib; sourceTree = "<group>"; };
+		4E4E81A6165C599000ADC4CD /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		4E4E81A7165C599000ADC4CD /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		4E4E81A8165C599000ADC4CD /* ProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+		4E4E81AC165C59AD00ADC4CD /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		4E4E81AD165C59AD00ADC4CD /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		4E4E81AE165C59AD00ADC4CD /* AboutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutViewController.xib; sourceTree = "<group>"; };
+		4E4E81B1165C59CF00ADC4CD /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		4E4E81B2165C59CF00ADC4CD /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		4E4E81B3165C59CF00ADC4CD /* SettingsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewController.xib; sourceTree = "<group>"; };
+		4E4E81B6165C602800ADC4CD /* TweetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TweetViewController.h; sourceTree = "<group>"; };
+		4E4E81B7165C602800ADC4CD /* TweetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TweetViewController.m; sourceTree = "<group>"; };
+		4E4E81B8165C602900ADC4CD /* TweetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TweetViewController.xib; sourceTree = "<group>"; };
+		4E4E81BB165C672600ADC4CD /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		4E4E81BD165C67B200ADC4CD /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		4E4E81BF165CB24000ADC4CD /* PostTweetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostTweetViewController.h; sourceTree = "<group>"; };
+		4E4E81C0165CB24000ADC4CD /* PostTweetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostTweetViewController.m; sourceTree = "<group>"; };
+		4E4E81C1165CB24000ADC4CD /* PostTweetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PostTweetViewController.xib; sourceTree = "<group>"; };
+		4E4E8240165D533200ADC4CD /* LeaderBoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeaderBoardViewController.h; sourceTree = "<group>"; };
+		4E4E8241165D533200ADC4CD /* LeaderBoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeaderBoardViewController.m; sourceTree = "<group>"; };
+		4E4E8242165D533200ADC4CD /* LeaderBoardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeaderBoardViewController.xib; sourceTree = "<group>"; };
+		4E4E824D165D84C900ADC4CD /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		4E6177D216663394000F168E /* User.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = User.png; sourceTree = "<group>"; };
+		4E6177D91666429A000F168E /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		4E6177DA1666429A000F168E /* info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = info.png; sourceTree = "<group>"; };
+		4E6177DB1666429A000F168E /* man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = man.png; sourceTree = "<group>"; };
+		4E6177DC1666429A000F168E /* plus-sign.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "plus-sign.png"; sourceTree = "<group>"; };
+		4EB9122B1656EEB7000AC73E /* TweetMySteps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TweetMySteps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EB9122F1656EEB7000AC73E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4EB912311656EEB7000AC73E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4EB912331656EEB7000AC73E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4EB912351656EEB7000AC73E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4EB912391656EEB7000AC73E /* TweetMySteps-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TweetMySteps-Info.plist"; sourceTree = "<group>"; };
+		4EB9123B1656EEB7000AC73E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4EB9123D1656EEB7000AC73E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4EB9123F1656EEB7000AC73E /* TweetMySteps-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TweetMySteps-Prefix.pch"; sourceTree = "<group>"; };
+		4EB912401656EEB7000AC73E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4EB912411656EEB7000AC73E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4EB912431656EEB7000AC73E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		4EB912451656EEB7000AC73E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		4EB912471656EEB7000AC73E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4EB9124A1656EEB7000AC73E /* TweetMySteps.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TweetMySteps.xcdatamodel; sourceTree = "<group>"; };
+		4EC67646166942D300D2BF32 /* NoDisplayTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoDisplayTableViewCell.h; sourceTree = "<group>"; };
+		4EC67647166942D300D2BF32 /* NoDisplayTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoDisplayTableViewCell.m; sourceTree = "<group>"; };
+		4EC67649166942FA00D2BF32 /* NoDisplayTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NoDisplayTableViewCell.xib; sourceTree = "<group>"; };
+		4EC676571669CEFD00D2BF32 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		4EE8F0CD166F38E90039866F /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
+		4EE8F0D0166F38F30039866F /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../Icon@2x.png"; sourceTree = "<group>"; };
+		4EF75C851670A58B003EA3E2 /* LeaderBoardTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeaderBoardTableViewCell.xib; sourceTree = "<group>"; };
+		4EF75C8716719125003EA3E2 /* DetailedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailedViewController.h; sourceTree = "<group>"; };
+		4EF75C8816719126003EA3E2 /* DetailedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailedViewController.m; sourceTree = "<group>"; };
+		4EF75C8916719126003EA3E2 /* DetailedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailedViewController.xib; sourceTree = "<group>"; };
+		4EF75C90167199AC003EA3E2 /* pattern3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pattern3.png; sourceTree = "<group>"; };
+		4EFBA7FA1667601100B2101D /* LeaderBoardTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeaderBoardTableViewCell.h; sourceTree = "<group>"; };
+		4EFBA7FB1667601100B2101D /* LeaderBoardTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeaderBoardTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4EB912281656EEB7000AC73E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EC676581669CEFD00D2BF32 /* iAd.framework in Frameworks */,
+				4E4E824E165D84C900ADC4CD /* Social.framework in Frameworks */,
+				4E4E81BE165C67B200ADC4CD /* Accounts.framework in Frameworks */,
+				4E4E81BC165C672600ADC4CD /* Twitter.framework in Frameworks */,
+				4EB912301656EEB7000AC73E /* UIKit.framework in Frameworks */,
+				4EB912321656EEB7000AC73E /* Foundation.framework in Frameworks */,
+				4EB912341656EEB7000AC73E /* CoreGraphics.framework in Frameworks */,
+				4EB912361656EEB7000AC73E /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4EB912201656EEB7000AC73E = {
+			isa = PBXGroup;
+			children = (
+				4EB912371656EEB7000AC73E /* TweetMySteps */,
+				4EB9122E1656EEB7000AC73E /* Frameworks */,
+				4EB9122C1656EEB7000AC73E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4EB9122C1656EEB7000AC73E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4EB9122B1656EEB7000AC73E /* TweetMySteps.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4EB9122E1656EEB7000AC73E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4EC676571669CEFD00D2BF32 /* iAd.framework */,
+				4E4E824D165D84C900ADC4CD /* Social.framework */,
+				4E4E81BD165C67B200ADC4CD /* Accounts.framework */,
+				4E4E81BB165C672600ADC4CD /* Twitter.framework */,
+				4EB9122F1656EEB7000AC73E /* UIKit.framework */,
+				4EB912311656EEB7000AC73E /* Foundation.framework */,
+				4EB912331656EEB7000AC73E /* CoreGraphics.framework */,
+				4EB912351656EEB7000AC73E /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4EB912371656EEB7000AC73E /* TweetMySteps */ = {
+			isa = PBXGroup;
+			children = (
+				4EFBA7F816675FCB00B2101D /* TableViewCells */,
+				4EB912551656EF11000AC73E /* Images */,
+				4EB912541656EF06000AC73E /* Models */,
+				4EB912531656EEFC000AC73E /* Delegates */,
+				4EB912521656EEF0000AC73E /* ViewControllers */,
+				4EB912511656EEE7000AC73E /* Views */,
+				4EB912381656EEB7000AC73E /* Supporting Files */,
+			);
+			path = TweetMySteps;
+			sourceTree = "<group>";
+		};
+		4EB912381656EEB7000AC73E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4EB912391656EEB7000AC73E /* TweetMySteps-Info.plist */,
+				4EB9123A1656EEB7000AC73E /* InfoPlist.strings */,
+				4EB9123D1656EEB7000AC73E /* main.m */,
+				4EB9123F1656EEB7000AC73E /* TweetMySteps-Prefix.pch */,
+				4EB912431656EEB7000AC73E /* Default.png */,
+				4EB912451656EEB7000AC73E /* Default@2x.png */,
+				4EB912471656EEB7000AC73E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4EB912511656EEE7000AC73E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4E4E81A8165C599000ADC4CD /* ProfileViewController.xib */,
+				4E4E81C1165CB24000ADC4CD /* PostTweetViewController.xib */,
+				4E4E8242165D533200ADC4CD /* LeaderBoardViewController.xib */,
+				4E4E81AE165C59AD00ADC4CD /* AboutViewController.xib */,
+				4E4E81B3165C59CF00ADC4CD /* SettingsViewController.xib */,
+				4E4E81B8165C602900ADC4CD /* TweetViewController.xib */,
+				4E3EAD44166B612300F92013 /* UserProfileViewController.xib */,
+				4E3EAD5C166CD34000F92013 /* DetailViewController.xib */,
+				4EF75C8916719126003EA3E2 /* DetailedViewController.xib */,
+				4E047EF316758E170028B1CE /* DetailVsViewController.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		4EB912521656EEF0000AC73E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4E4E81AC165C59AD00ADC4CD /* AboutViewController.h */,
+				4E4E81AD165C59AD00ADC4CD /* AboutViewController.m */,
+				4E4E81A6165C599000ADC4CD /* ProfileViewController.h */,
+				4E4E81A7165C599000ADC4CD /* ProfileViewController.m */,
+				4E4E81BF165CB24000ADC4CD /* PostTweetViewController.h */,
+				4E4E81C0165CB24000ADC4CD /* PostTweetViewController.m */,
+				4E4E81B1165C59CF00ADC4CD /* SettingsViewController.h */,
+				4E4E81B6165C602800ADC4CD /* TweetViewController.h */,
+				4E4E81B2165C59CF00ADC4CD /* SettingsViewController.m */,
+				4E4E81B7165C602800ADC4CD /* TweetViewController.m */,
+				4E4E8240165D533200ADC4CD /* LeaderBoardViewController.h */,
+				4E4E8241165D533200ADC4CD /* LeaderBoardViewController.m */,
+				4E3EAD42166B612300F92013 /* UserProfileViewController.h */,
+				4E3EAD43166B612300F92013 /* UserProfileViewController.m */,
+				4E3EAD5A166CD33F00F92013 /* DetailViewController.h */,
+				4E3EAD5B166CD33F00F92013 /* DetailViewController.m */,
+				4EF75C8716719125003EA3E2 /* DetailedViewController.h */,
+				4EF75C8816719126003EA3E2 /* DetailedViewController.m */,
+				4E047EF116758E160028B1CE /* DetailVsViewController.h */,
+				4E047EF216758E160028B1CE /* DetailVsViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4EB912531656EEFC000AC73E /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				4EB912401656EEB7000AC73E /* AppDelegate.h */,
+				4EB912411656EEB7000AC73E /* AppDelegate.m */,
+			);
+			name = Delegates;
+			sourceTree = "<group>";
+		};
+		4EB912541656EF06000AC73E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4EB912491656EEB7000AC73E /* TweetMySteps.xcdatamodeld */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		4EB912551656EF11000AC73E /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4EE8F0D0166F38F30039866F /* Icon@2x.png */,
+				4EE8F0CD166F38E90039866F /* Icon.png */,
+				4EF75C90167199AC003EA3E2 /* pattern3.png */,
+				4E6177D91666429A000F168E /* home.png */,
+				4E6177DA1666429A000F168E /* info.png */,
+				4E6177DB1666429A000F168E /* man.png */,
+				4E6177DC1666429A000F168E /* plus-sign.png */,
+				4E6177D216663394000F168E /* User.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		4EFBA7F816675FCB00B2101D /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				4EF75C851670A58B003EA3E2 /* LeaderBoardTableViewCell.xib */,
+				4EFBA7FA1667601100B2101D /* LeaderBoardTableViewCell.h */,
+				4EFBA7FB1667601100B2101D /* LeaderBoardTableViewCell.m */,
+				4EC67646166942D300D2BF32 /* NoDisplayTableViewCell.h */,
+				4EC67647166942D300D2BF32 /* NoDisplayTableViewCell.m */,
+				4EC67649166942FA00D2BF32 /* NoDisplayTableViewCell.xib */,
+				4E3EAD55166CC3AA00F92013 /* UserProfileLifeTimeTableViewCell.h */,
+				4E3EAD56166CC3AA00F92013 /* UserProfileLifeTimeTableViewCell.m */,
+				4E3EAD58166CC3D100F92013 /* UserProfileLifetimeTableViewCell.xib */,
+				4E3EAD5F166CD40800F92013 /* DetailTableViewCell.h */,
+				4E3EAD60166CD40800F92013 /* DetailTableViewCell.m */,
+				4E3EAD62166CD55700F92013 /* DetailTableViewCell.xib */,
+				4E047EF61675C25A0028B1CE /* DetailVsTableViewCell.h */,
+				4E047EF71675C25A0028B1CE /* DetailVsTableViewCell.m */,
+				4E047EF91675C27A0028B1CE /* DetailVsTableViewCell.xib */,
+			);
+			name = TableViewCells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4EB9122A1656EEB7000AC73E /* TweetMySteps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EB9124E1656EEB7000AC73E /* Build configuration list for PBXNativeTarget "TweetMySteps" */;
+			buildPhases = (
+				4EB912271656EEB7000AC73E /* Sources */,
+				4EB912281656EEB7000AC73E /* Frameworks */,
+				4EB912291656EEB7000AC73E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TweetMySteps;
+			productName = TweetMySteps;
+			productReference = 4EB9122B1656EEB7000AC73E /* TweetMySteps.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4EB912221656EEB7000AC73E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = MindAgile;
+			};
+			buildConfigurationList = 4EB912251656EEB7000AC73E /* Build configuration list for PBXProject "TweetMySteps" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4EB912201656EEB7000AC73E;
+			productRefGroup = 4EB9122C1656EEB7000AC73E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4EB9122A1656EEB7000AC73E /* TweetMySteps */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4EB912291656EEB7000AC73E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EB9123C1656EEB7000AC73E /* InfoPlist.strings in Resources */,
+				4EB912441656EEB7000AC73E /* Default.png in Resources */,
+				4EB912461656EEB7000AC73E /* Default@2x.png in Resources */,
+				4EB912481656EEB7000AC73E /* Default-568h@2x.png in Resources */,
+				4E4E81AA165C599000ADC4CD /* ProfileViewController.xib in Resources */,
+				4E4E81B0165C59AD00ADC4CD /* AboutViewController.xib in Resources */,
+				4E4E81B5165C59CF00ADC4CD /* SettingsViewController.xib in Resources */,
+				4E4E81BA165C602900ADC4CD /* TweetViewController.xib in Resources */,
+				4E4E81C3165CB24100ADC4CD /* PostTweetViewController.xib in Resources */,
+				4E4E8244165D533200ADC4CD /* LeaderBoardViewController.xib in Resources */,
+				4E6177D616663394000F168E /* User.png in Resources */,
+				4E6177DD1666429B000F168E /* home.png in Resources */,
+				4E6177DE1666429B000F168E /* info.png in Resources */,
+				4E6177DF1666429B000F168E /* man.png in Resources */,
+				4E6177E01666429B000F168E /* plus-sign.png in Resources */,
+				4EC6764A166942FA00D2BF32 /* NoDisplayTableViewCell.xib in Resources */,
+				4E3EAD46166B612300F92013 /* UserProfileViewController.xib in Resources */,
+				4E3EAD59166CC3D100F92013 /* UserProfileLifetimeTableViewCell.xib in Resources */,
+				4E3EAD5E166CD34000F92013 /* DetailViewController.xib in Resources */,
+				4E3EAD63166CD55700F92013 /* DetailTableViewCell.xib in Resources */,
+				4EF75C4A166F4488003EA3E2 /* Icon.png in Resources */,
+				4EF75C4B166F448E003EA3E2 /* Icon@2x.png in Resources */,
+				4EF75C861670A58B003EA3E2 /* LeaderBoardTableViewCell.xib in Resources */,
+				4EF75C8B16719127003EA3E2 /* DetailedViewController.xib in Resources */,
+				4EF75C91167199AC003EA3E2 /* pattern3.png in Resources */,
+				4E047EF516758E170028B1CE /* DetailVsViewController.xib in Resources */,
+				4E047EFA1675C27A0028B1CE /* DetailVsTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4EB912271656EEB7000AC73E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4EB9123E1656EEB7000AC73E /* main.m in Sources */,
+				4EB912421656EEB7000AC73E /* AppDelegate.m in Sources */,
+				4EB9124B1656EEB7000AC73E /* TweetMySteps.xcdatamodeld in Sources */,
+				4E4E81A9165C599000ADC4CD /* ProfileViewController.m in Sources */,
+				4E4E81AF165C59AD00ADC4CD /* AboutViewController.m in Sources */,
+				4E4E81B4165C59CF00ADC4CD /* SettingsViewController.m in Sources */,
+				4E4E81B9165C602900ADC4CD /* TweetViewController.m in Sources */,
+				4E4E81C2165CB24100ADC4CD /* PostTweetViewController.m in Sources */,
+				4E4E8243165D533200ADC4CD /* LeaderBoardViewController.m in Sources */,
+				4EFBA7FC1667601100B2101D /* LeaderBoardTableViewCell.m in Sources */,
+				4EC67648166942D300D2BF32 /* NoDisplayTableViewCell.m in Sources */,
+				4E3EAD45166B612300F92013 /* UserProfileViewController.m in Sources */,
+				4E3EAD57166CC3AA00F92013 /* UserProfileLifeTimeTableViewCell.m in Sources */,
+				4E3EAD5D166CD34000F92013 /* DetailViewController.m in Sources */,
+				4E3EAD61166CD40800F92013 /* DetailTableViewCell.m in Sources */,
+				4EF75C8A16719127003EA3E2 /* DetailedViewController.m in Sources */,
+				4E047EF416758E170028B1CE /* DetailVsViewController.m in Sources */,
+				4E047EF81675C25B0028B1CE /* DetailVsTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4EB9123A1656EEB7000AC73E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4EB9123B1656EEB7000AC73E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4EB9124C1656EEB7000AC73E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7s armv7";
+			};
+			name = Debug;
+		};
+		4EB9124D1656EEB7000AC73E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7s armv7";
+			};
+			name = Release;
+		};
+		4EB9124F1656EEB7000AC73E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TweetMySteps/TweetMySteps-Prefix.pch";
+				INFOPLIST_FILE = "TweetMySteps/TweetMySteps-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4EB912501656EEB7000AC73E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TweetMySteps/TweetMySteps-Prefix.pch";
+				INFOPLIST_FILE = "TweetMySteps/TweetMySteps-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4EB912251656EEB7000AC73E /* Build configuration list for PBXProject "TweetMySteps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EB9124C1656EEB7000AC73E /* Debug */,
+				4EB9124D1656EEB7000AC73E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EB9124E1656EEB7000AC73E /* Build configuration list for PBXNativeTarget "TweetMySteps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4EB9124F1656EEB7000AC73E /* Debug */,
+				4EB912501656EEB7000AC73E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4EB912491656EEB7000AC73E /* TweetMySteps.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4EB9124A1656EEB7000AC73E /* TweetMySteps.xcdatamodel */,
+			);
+			currentVersion = 4EB9124A1656EEB7000AC73E /* TweetMySteps.xcdatamodel */;
+			path = TweetMySteps.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4EB912221656EEB7000AC73E /* Project object */;
+}
